@@ -12,9 +12,10 @@ There are 3 new cmdlets related to iLO settings. They are
    * New-OVIloLocalUserAccount
    * New-OVIloDirectoryGroup
    * New-OVServerProfileIloPolicy
+
 I refer you to the help file for addtional details on those cmdlets
 
-spt-with-ilo-settings.ps1 is an example of PowerShell script that leverages new iLO cmdlets to configure iLO settings in server rpofile templates.
+spt-with-ilo-settings.ps1 is an example of PowerShell script that leverages new iLO cmdlets to configure iLO settings in server profile templates.
 Use it as a reference to customize your script
 
 Note: The script is generated using the Convertto-OVPowerShellscript cmdlet !
